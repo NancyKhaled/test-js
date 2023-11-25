@@ -1,0 +1,150 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+input {
+	position: relative;
+}
+
+.bi-eye-slash {
+	position: absolute;
+	bottom: 21px;
+    right: 10px;
+	font-size: 21px;
+	cursor: pointer;
+	z-index: 999;
+}
+
+body {
+	font-family: "Nunito Sans", sans-serif;
+	height: 100vh;
+	width: 100%;
+	float: left;
+	background-image: url("../images/background.avif");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#LoginAndSignUpForm {
+	background: #e7ebeeb8;
+	margin: 10% auto;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 15px;
+	box-shadow: 0px 0px 6px 0px #cdcdcd;
+}
+
+#formTitle {
+	text-align: center;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+
+.input-text {
+	width: 100%;
+	height: 38px;
+	border: 0px;
+	border: 1px solid #747474;
+	box-sizing: border-box;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 17px;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.input-text:focus {
+	outline: none;
+}
+
+.forgot-pass-remember-me {
+	font-size: 14px;
+}
+
+.forgot-pass-remember-me #ForgotPassword {
+	color: #140c36;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+.forgot-pass-remember-me #ForgotPassword:hover {
+	color: #025cce;
+}
+
+.forgot-pass-remember-me input {
+	height: 12px;
+}
+
+.forgot-pass-remember-me label {
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.forgot-pass-remember-me a {
+	text-decoration: none;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.Submit-Btn {
+	width: 100%;
+	height: 42px;
+	border: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: bolder;
+	transition: 0.4s;
+	background-color: #123776;
+	color: #fff;
+}
+
+.Submit-Btn:hover {
+	background-color: #13479f;
+	color: #fff;
+}
+
+.dont-have-account,
+.already-have-account {
+	font-family: "Nunito Sans", sans-serif;
+	letter-spacing: 0.3px;
+	font-size: 14px;
+	color: #dfdfdf;
+}
+
+.dont-have-account a,
+.already-have-account a {
+	font-family: "Nunito Sans", sans-serif;
+	text-decoration: none;
+	color: #140c36;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+.dont-have-account a:hover,
+.already-have-account a:hover {
+	color: #025cce;
+}
+
+#SignUpFrom,
+#ForgotPasswordForm {
+	display: none;
+}
+
+.error-input {
+	border: 2px solid #ff5b5b;
+}
+
+.error-message {
+	border-radius: 0.3rem;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    background-color: #f1b0b0;
+    color: #fff;
+}
